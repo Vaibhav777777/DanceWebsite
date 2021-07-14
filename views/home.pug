@@ -1,0 +1,51 @@
+extends base.pug
+
+block scripts
+  script(src='../staic/index.js')
+
+block style
+  style
+      include ../static/style.css  
+block content
+    
+
+    section#introsection
+        div#intro Welcome to my dance academy 
+        div#intro let's start !
+        div.small Eat! Sleep! Dance! Repeat!
+    
+    section#missionsection 
+         h2 Our Dance Experts
+         div.card
+          div.card-box
+            h3 Choreographer
+             div.card-img
+                img(src="../static/pic.jpg", alt="", srcset="")
+             div.card-content
+                p Remo D'Souza
+
+                
+         div.card
+          div.card-box
+            h3 Choreographer
+             div.card-img
+                img(src="../static/pic.jpg", alt="", srcset="")
+             div.card-content
+                p Remo D'Souza    
+         div.card
+          div.card-box
+            h3 Choreographer
+             div.card-img
+                img(src="../static/pic.jpg", alt="", srcset="")
+             div.card-content
+                p Remo D'Souza    
+             
+            
+
+    section#sponserssection 
+         h2 Our Sponsers
+         div.sponsers
+            img(src="../static/resso.png", alt="", srcset="")
+            img(src="../static/apple.png", alt="", srcset="")
+            img(src="../static/gaana.png", alt="", srcset="")
+            img(src="../static/Spotify_Logo.png", alt="", srcset="")

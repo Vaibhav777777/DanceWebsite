@@ -1,0 +1,24 @@
+html
+  head
+    title VDA
+    block scripts
+    block style 
+    //-   script(src='/jquery.js')
+  body
+    nav#navbar
+          ul
+            div#logo
+                img(src="../static/company logo1.png", alt="", srcset="",href="/")
+                | VDA
+            li #[a(href="/") Home] 
+            li #[a(href="/") About] 
+            li #[a(href="/") Services]
+            li #[a(href="/classinfo") Class info] 
+            li #[a(href="/contact") Contact us]
+    block content
+        
+    block foot
+    footer#footer 
+         | copyright 2021 © vda.com | All right reserved    
+    //-   #footer
+    //-     p some footer content

@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Benne&family=Dela+Gothic+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* box-sizing: border-box; */
+
+}
+#navbar{
+    /* position: sticky; */
+    background-image:   url(../static/bg8.jpg);
+    background-size: cover;
+    /* zoom: 80%; */
+    /* background-color: rgb(13, 23, 41); */
+    /* margin: 6px; */
+    padding: 6px;
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+#navbar ul{
+    
+    display: flex;
+    padding: 15px;
+    /* margin: 6px; */
+    justify-content: center;
+}
+/* log */
+#logo {
+    
+    display: flex;
+    height: 42px;
+    width: 10%;
+    filter: invert(1);
+    /* border: 2px solid black;
+    border-radius: 10px; */
+    /* margin: 6px; */
+    text-align: center;
+    justify-content: center;
+}
+#logo img{
+    justify-content: center;
+    text-align: center;
+
+}
+#navbar li{
+    /* color; */
+    list-style: none;
+    padding: 4px 11px;
+
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 4px 20px;
+    font-size: 16px;
+    /* font-weight: bold; */
+
+
+}
+#navbar li a:hover{
+    color: cornflowerblue;
+}
+
+#introsection{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: red;
+    height: 450px;
+    background: no-repeat center center   url("../static/bg4.jpg");
+    zoom: 120%;
+    background-size: cover;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 35px;
+    width: 100%;
+
+    
+
+}
+#intro{
+    opacity: 0.6;
+    color: white;
+    background: #000;
+    width: 100%;
+    
+    justify-content: center;
+    text-align: center;
+}
+.small{
+    opacity: 0.6;
+    background: cornflowerblue;
+    color: chartreuse;
+    font-size: 17px;
+    text-align: center;
+    width: 100%;
+}
+#missionsection{
+    /* display: flex;
+    flex-direction: row; */
+
+    text-align: center;
+    /* background-image:   url(../static/bg7.png); */
+    background-image:   url(../static/bg9.jpg);
+    background-size: cover;
+    height: 350px;
+
+}
+#missionsection h2{
+    font-family: 'Akaya Kanadaka', cursive;
+
+}
+.card:hover{
+    opacity: 0.8;
+
+}
+.card{
+    background-image: url();
+    border: 3px solid transparent;
+    border-radius: 10px ;
+    height: 200px;
+    width: 20%;
+    display: inline-flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+    padding: 10px;
+    opacity: 0.4;
+    background: white;
+    /* opacity: 0.6; */
+}
+
+.card p{
+    font-family: 'Yellowtail', cursive;
+    text-decoration: bold;
+    /* opacity: 0.6; */
+}
+.card h3{
+    font-size: 20px;
+}
+.card-box {
+    /* display: flex; */
+    display: flex ;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+
+.card-img img{
+    margin: 4px;
+    height: 100px;
+    border: 2px solid black;
+
+}
+#sponserssection{
+    background-image:   url(../static/bg5.jpg);
+    
+    background-size: cover;
+    height: 300px;
+
+}
+#sponserssection h2{
+    text-align: center;
+    padding-top: 12px;
+    font-family: 'Akaya Kanadaka', cursive;
+}
+.sponsers img{
+    height: 100px;
+    margin: 35px;
+}
+#footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: chartreuse;
+    height: 40px;
+    background: #000;
+
+}

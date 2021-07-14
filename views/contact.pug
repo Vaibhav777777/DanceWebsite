@@ -1,0 +1,27 @@
+extends base.pug
+
+block scripts
+  script(src='../staic/index.js')
+
+block style
+  style
+      include ../static/style.css  
+      include ../static/stylecontact.css  
+block content
+    h1 Contact Us
+    div.contact-box
+        form(action="/contact", method="post", Class="myform")
+         p NAME: 
+           input(type="text", Class="myinput" , name="name" placeholder="Enter Your Name")
+         p Phone No:      
+           input(type="phone", Class="myinput" , name="phone" placeholder="Enter Your phone no")
+         p Gender:      
+           input(type="gender", Class="myinput" , name="gender" placeholder="Enter Your gender")
+         p Email:      
+           input(type="email", Class="myinput" , name="email" placeholder="Enter Your email")
+         p Address:      
+           input(type="address", Class="myinput" , name="address" placeholder="Enter Your address")
+         p Message:      
+           input(type="message", Class="myinput" , name="message" placeholder="Enter Your message")
+           input(type='submit', value="Submit")
+                

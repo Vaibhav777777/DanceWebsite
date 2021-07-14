@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background: #000; */
+}
+
+h1{
+    background: rgb(84, 115, 129);
+    font-family: 'Dela Gothic One', cursive;
+    text-align: center;
+}
+.contact-box{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image:   url(../static/contact3.jpg);
+    background-size: cover;
+
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image:   url(../static/contact3.jpg);
+    background-size: cover;
+    justify-content: center;
+    border: 3px solid transparent;
+    border-radius: 10px;
+    opacity: 0.6;
+    margin: 6px 6px 6px 400px;
+    height: 100%;
+    /* width: 200px; */
+    /* width: 40%;  */
+}
+.myform{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    font-family: 'Akaya Kanadaka', cursive;
+    color: rgb(165, 165, 185);
+}
+
+.myinput{
+    height: 50px;
+    width: 100%;
+    padding: 4px;
+    margin: 6px;
+}
+.btn{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 28%;
+    height: 36px;
+    padding: 5px;
+    margin: 4px 4px 4px 100px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    background-color: teal;
+}
+/* .btn:hover{
+    background-color: thistle;
+} */
